@@ -2,6 +2,7 @@
 
 const inquirer = require('inquirer')
 const fs = require('fs')
+const generateMarkDown = require('generateMarkdown.js')
 
 
 // TODO: Create an array of questions for user input
@@ -119,7 +120,7 @@ ${questions.credits}
 
 ## License
 
-${questions.license}
+${questionslicense}
 
 ## Badges
 

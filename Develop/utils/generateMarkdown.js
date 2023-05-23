@@ -2,7 +2,10 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   var string = ''
-  if (questions.choices[0])
+  if (questions.choices[0]){
+    string = 
+
+  }
   
 }
 
