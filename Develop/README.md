@@ -1,39 +1,39 @@
 
 # Title
- F
+ j
 
 
 
 ## Description
 
-F 
+j 
 
 ## Table-of-Contents
 
 
      
 */
-F
+j
 
 ## Installation
 
-F
+j
 
 ## Usage
 
-F
+j
 
 ## Screenshot
 
-F
+j
 
 ## Credits
 
-F
+j
 
 ## License
 
-MIT
+AGPL
 
 ## Badges
 
@@ -45,7 +45,7 @@ undefined
 
 ## Contribution
 
-F
+j
 
 ## Tests
 
