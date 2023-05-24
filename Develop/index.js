@@ -11,7 +11,7 @@ const generateMarkDown = require('./utils/generateMarkdown')
 const questions = [
     {
         type: 'input',
-        name: 'user',
+        name: 'github',
         message: "Enter your github user name"
     },
     {
@@ -26,7 +26,7 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'details',
+        name: 'description',
         message: 'Enter any project details'
     },
     {
@@ -43,21 +43,33 @@ const questions = [
     type: 'list',
     name: 'license',
     message: 'Choose license used for project',
-    options: ['MIT License', 'APACHE 2.0', 'None']
-}
+    choices: ['MIT License', 'APACHE 2.0', 'None']
+},
+{   
+    type: 'input',
+    name: 'contributions',
+    message: 'enter contributions or collaborators if applicable'
+
+},
+ {   type:'input',
+     name: 'testing',
+     message: 'Enter testing steps used in project'
+ }
 ]
 
-
-
-
+/*
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data)
+}
+*/
 // TODO: Create a function to initialize app
+
 function init() {
-    fileName = 'README.md',
     inquirer
     .prompt(questions)
     .then((data) => {
-        console.log(data, "answers"),
-        writeToFile(fileName, data)
+        console.log(data),
+        fs.writeFile('CreatedREADME.md', generateMarkDown(data), (err) => err? console.error(err) : console.log("it works!"))
     }
 )
 }
