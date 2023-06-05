@@ -1,52 +1,25 @@
-# Professional README Generator Starter Code
-
-[How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
 
 # Title
- ${questions.title}
+ Professional-Readme-Generator
 
-
+# Table of Contents: 
+-[Description](#Description)
+-[Video](#Video)
+-[Contact](#Contact)
 
 ## Description
+In this application. I used Node.js to create a generator for a README file. The application will ask the user a series of questions that they must answer to generate the various components of a README, such as the title, description, installation and licenses. 
 
-${questions.description}
+## Video
+The link demonstrating the application's functionality is attached below:
 
-## Table-of-Contents
+https://screenrec.com/share/nQFlrE6f9S
 
-${questions.table-of-contents}
+## Contact
+Reach out to me on Github if you have any questions!
+Github repository link: https://github.com/17kyle1/Professional-Readme-Generator
 
-## Installation
 
-${questions.installation}
 
-## Usage
 
-${questions.usage}
 
-## Screenshot
-
-${questions.screenshot}
-
-## Credits
-
-${questions.credits}
-
-## License
-
-${questions.license}
-
-## Badges
-
-${questions.badges}
-
-## Features
-
-${questions.features}
-
-## Contribution
-
-${questions.contribution}
-
-## Tests
-
-${questions.tests}
